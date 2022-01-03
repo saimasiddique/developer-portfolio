@@ -58,3 +58,48 @@ h1
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience-area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item
+{
+    width: 40%;
+    margin-left:5% ;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+h2
+{
+    font: size 40px ;
+}
+
+#web-dev-experience
+{
+    border-left: 7px solid;
+
+    border-image:linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+
+}
+#full-stack-experience
+{
+    border-left: 7px solid;
+
+    border-image:linear-gradient(crimson,salmon) ;
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(68, 72, 76);
+}
